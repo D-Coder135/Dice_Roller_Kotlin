@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         rollButton.setOnClickListener{
             val toast = Toast.makeText(this, "Dice Rolled!", Toast.LENGTH_SHORT)
-
+            toast.show()
         }
     }
 }
