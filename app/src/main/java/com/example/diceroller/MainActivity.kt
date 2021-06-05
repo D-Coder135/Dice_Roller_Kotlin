@@ -49,6 +49,9 @@ class MainActivity : AppCompatActivity() {
 //            println("Apologies! You rolled a 6. Try again!")
 //        }
 
+        when (diceRoll) {
+
+        }
 
         // Update the screen with the dice roll
         val resultTextView: TextView = findViewById(R.id.textView)
