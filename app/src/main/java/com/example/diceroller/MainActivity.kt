@@ -35,6 +35,10 @@ class MainActivity : AppCompatActivity() {
         println("Your ${dice.numSides} sided dice rolled ${diceRoll}!")
         val luckyNumber = 4
 
+        if (diceRoll == luckyNumber) {
+
+        }
+
 
         // Update the screen with the dice roll
         val resultTextView: TextView = findViewById(R.id.textView)
