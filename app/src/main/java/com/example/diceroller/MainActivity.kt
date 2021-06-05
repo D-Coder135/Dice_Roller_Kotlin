@@ -39,8 +39,11 @@ class MainActivity : AppCompatActivity() {
             println("You win!")
         } else if (diceRoll == 1) {
             println(" So sorry! You rolled a 1. Try again!")
-        }
-        else {
+        } else if (diceRoll == 2) {
+            println(" So sorry! You rolled a 2. Try again!")
+        } else if (diceRoll == 3) {
+
+        } else {
             println("You didn't win, try again!")
         }
 
