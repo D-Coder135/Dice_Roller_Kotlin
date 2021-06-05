@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         // Create new Dice object with 6 sides and roll it
         val dice = Dice(6)
         val diceRoll = dice.roll()
-        println("Your ${dice.numSides} sided dice rolled ${diceRoll}")
+        println("Your ${dice.numSides} sided dice rolled ${diceRoll}!")
 
 
         // Update the screen with the dice roll
