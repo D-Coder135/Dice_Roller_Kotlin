@@ -18,7 +18,12 @@ class MainActivity : AppCompatActivity() {
 //            toast.show()
 //            val resultTextView: TextView = findViewById(R.id.textView)
 //            resultTextView.text = "6"
+            rollDice()
         }
+    }
+
+    private fun rollDice() {
+        TODO("Not yet implemented")
     }
 }
 
