@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun rollDice() {
-
+        val dice = Dice(6)
     }
 }
 
