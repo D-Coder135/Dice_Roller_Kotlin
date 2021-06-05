@@ -35,19 +35,19 @@ class MainActivity : AppCompatActivity() {
 //        println("Your ${dice.numSides} sided dice rolled ${diceRoll}!")
         val luckyNumber = 4
 
-        if (diceRoll == luckyNumber) {
-            println("You win!")
-        } else if (diceRoll == 1) {
-            println(" So sorry! You rolled a 1. Try again!")
-        } else if (diceRoll == 2) {
-            println(" Sadly! You rolled a 2. Try again!")
-        } else if (diceRoll == 3) {
-            println(" Unfortunately! You rolled a 3. Try again!")
-        } else if (diceRoll == 5) {
-            println("Don't cry! You rolled a 5. Try again!")
-        } else {
-            println("Apologies! You rolled a 6. Try again!")
-        }
+//        if (diceRoll == luckyNumber) {
+//            println("You win!")
+//        } else if (diceRoll == 1) {
+//            println(" So sorry! You rolled a 1. Try again!")
+//        } else if (diceRoll == 2) {
+//            println(" Sadly! You rolled a 2. Try again!")
+//        } else if (diceRoll == 3) {
+//            println(" Unfortunately! You rolled a 3. Try again!")
+//        } else if (diceRoll == 5) {
+//            println("Don't cry! You rolled a 5. Try again!")
+//        } else {
+//            println("Apologies! You rolled a 6. Try again!")
+//        }
 
 
         // Update the screen with the dice roll
