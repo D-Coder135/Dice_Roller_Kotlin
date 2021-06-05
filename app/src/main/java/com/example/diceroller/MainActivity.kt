@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
         } else if (diceRoll == 5) {
             println("Don't cry! You rolled a 5. Try again!")
         } else if (diceRoll == 6) {
-
+            println("Apologies! You rolled a 6. Try again!")
         }
 
 
