@@ -37,6 +37,8 @@ class MainActivity : AppCompatActivity() {
 
         if (diceRoll == luckyNumber) {
             println("You win!")
+        } else {
+
         }
 
 
