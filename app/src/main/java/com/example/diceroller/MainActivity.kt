@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         val luckyNumber = 4
 
         if (diceRoll == luckyNumber) {
-
+            println("You win!")
         }
 
 
