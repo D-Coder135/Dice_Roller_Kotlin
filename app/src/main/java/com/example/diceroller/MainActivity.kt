@@ -1,19 +1,21 @@
 package com.example.diceroller
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
-import android.widget.Toast
-import org.w3c.dom.Text
+import androidx.appcompat.app.AppCompatActivity
 
+/**
+ * This activity allows the user to roll a dice and view the result
+ * on the screen.
+ * */
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val rollButton: Button = findViewById(R.id.button)
 
-        rollButton.setOnClickListener{
+        rollButton.setOnClickListener {
 //            Toast.makeText(this, "Dice Rolled!", Toast.LENGTH_SHORT).show()
 //            val toast = Toast.makeText(this, "Dice Rolled!", Toast.LENGTH_SHORT)
 //            toast.show()
