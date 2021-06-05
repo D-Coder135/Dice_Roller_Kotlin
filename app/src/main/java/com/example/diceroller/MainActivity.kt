@@ -23,5 +23,7 @@ class MainActivity : AppCompatActivity() {
 }
 
 class Dice(val numSides: Int) {
+    fun roll(): Int {
 
+    }
 }
