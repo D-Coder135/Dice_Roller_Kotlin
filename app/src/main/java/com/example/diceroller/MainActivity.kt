@@ -16,8 +16,8 @@ class MainActivity : AppCompatActivity() {
 //            Toast.makeText(this, "Dice Rolled!", Toast.LENGTH_SHORT).show()
 //            val toast = Toast.makeText(this, "Dice Rolled!", Toast.LENGTH_SHORT)
 //            toast.show()
-            val resultTextView: TextView = findViewById(R.id.textView)
-            resultTextView.text = "6"
+//            val resultTextView: TextView = findViewById(R.id.textView)
+//            resultTextView.text = "6"
         }
     }
 }
