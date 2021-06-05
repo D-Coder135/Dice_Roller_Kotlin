@@ -65,6 +65,9 @@ class MainActivity : AppCompatActivity() {
 //        resultTextView.text = diceRoll.toString()
 
         val diceImage: ImageView = findViewById(R.id.imageView)
+        when (diceRoll) {
+
+        }
     }
 }
 
