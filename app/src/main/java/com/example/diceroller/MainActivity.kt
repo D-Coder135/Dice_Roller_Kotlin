@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun rollDice() {
-        TODO("Not yet implemented")
+
     }
 }
 
