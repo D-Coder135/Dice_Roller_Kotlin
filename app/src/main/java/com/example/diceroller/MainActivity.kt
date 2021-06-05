@@ -33,6 +33,7 @@ class MainActivity : AppCompatActivity() {
         val dice = Dice(6)
         val diceRoll = dice.roll()
         println("Your ${dice.numSides} sided dice rolled ${diceRoll}!")
+        val luckyNumber = 4
 
 
         // Update the screen with the dice roll
